@@ -42,3 +42,20 @@
 * `rmdir`-удали папку;
 
 * `rm -r`-удали папку и всё, что она содержит.
+
+
+```mermaid
+graph LR;
+untracked -- "git add"--> staged
+```
+
+
+
+
+
+
+
+
+
+
+
