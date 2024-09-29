@@ -53,12 +53,16 @@
 
 * `modified` -файл был изменен;
 
+* при любом изменении файла `tracked` он становится `modified` ,но при этом остается `tracked`.
+
 ```mermaid
 graph LR;
 untracked -- "git add"--> staged
 stage -- "git commit"--> tracked
 tracked -- "изменения"--> modified
-%% при любом изменении файла `tracked` он становится `modified` ,но при этом остается `tracked`.
+
+%% стрелка без текста для примера:
+A --> B;
  
 ```
 
